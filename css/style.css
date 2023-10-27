@@ -82,16 +82,10 @@ h1{
     background-color: #b4d0e7;
     padding: 20px 0;
 }
-.img-jumbotron{
+.img{
     width: 100%;
 }
 
-.container-sm .col-100 .content{
-    height: 150px;
-}
-.long{
-    height: 700px;
-}
 .sp-between{
     justify-content: space-between;
 }
