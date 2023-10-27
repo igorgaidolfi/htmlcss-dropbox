@@ -40,27 +40,32 @@
 .border-black{
     border: 2px dashed #000;
 }
-header .content{
-    height:75px;
-    padding: 20px 10px;
-}
+
 ul{
     list-style: none;
 }
-header li{
-    padding: 0 10px;
+li{
+    padding: 15px;
 }
 .d-flex{
     display: flex;
+    align-items: center;
 }
 .justify-right{
     justify-content: right;
 }
-.content{
-    background-color: #D6AE01;
-}
+
 .wrap{
     flex-wrap: wrap;
+}
+.bg-blue{
+    background-color: #0061fe;
+}
+.signup-header{
+    padding: 5px 15px;
+}
+.font-white{
+    color: #fff;
 }
 /* HEADER */
 /* MAIN  */
