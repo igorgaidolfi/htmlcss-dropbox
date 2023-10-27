@@ -29,7 +29,7 @@
     width: 60%;
 }
 .col-30{
-    width: 30%;
+    width: calc(100%/ 3 - 40px);
 }
 .col-33{
     width: calc(100% / 3);
@@ -61,31 +61,31 @@ li{
 .bg-blue{
     background-color: #0061fe;
 }
-.signup-header{
-    padding: 5px 15px;
-}
 .font-white{
     color: #fff;
 }
 /* HEADER */
+.signup-header{
+    padding: 5px 15px;
+    border: none
+}
 /* MAIN  */
+h1{
+    font-size: 50px;
+}
 .container-mid{
     max-width: 1400px;
     margin: 0 auto;
+    margin-top: 50px;
 }
 .bg-lightcyan{
     background-color: #b4d0e7;
     padding: 20px 0;
 }
-.container-mid .col-100 .content{
-    height: 100px;
+.img-jumbotron{
+    width: 100%;
 }
-.col-40 .content{
-    height: 400px;
-}
-.col-60 .content{
-    height: 400px;
-}
+
 .container-sm .col-100 .content{
     height: 150px;
 }
@@ -100,9 +100,6 @@ li{
 }
 .margin-y-50{
     margin: 50px 0;
-}
-.col-30 .content{
-    height: 400px;
 }
 .col-33 .content{
     height: 500px;
