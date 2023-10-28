@@ -45,10 +45,12 @@ body{
 .col-20{
     width: calc(100% / 5);
 }
-.border-black{
-    border: 2px dashed #000;
+.border-grey{
+    border: 1px solid lightgrey;
 }
-
+hr{
+    color: lightgrey
+}
 ul{
     list-style: none;
 }
@@ -84,11 +86,18 @@ li{
 .no-border{
     border: none
 }
-margin-y
+.bold{
+    font-weight: bold;
+}
+.font-blue{
+    color:#0061fe
+}
+.short-hr{
+    width: 20%;
+}
 /* HEADER */
 .signup-header{
-    padding: 7px 15px;
-    
+    padding: 7px 15px
 }
 /* MAIN  */
 h1{
@@ -111,8 +120,36 @@ h1{
 .sp-between{
     justify-content: space-between;
 }
-.margin-y-20{
-    margin: 20px 0;
+h2{
+    padding-bottom: 30px;
+    font-size: 48px;
+}
+.name-card{
+    text-align: center;
+    padding: 10px;
+}
+.card{
+    padding: 30px;
+}
+.title-card{
+    font-size: x-large;
+    padding-bottom: 15px;
+}
+.price{
+    padding-bottom: 10px;
+}
+.list-card{
+    padding: 40px 0;
+}
+.li-card{
+    padding: 10px 0;
+}
+.button-card{
+    width: 100%;
+    padding: 10px 0;
+}
+.margin-y-30{
+    margin: 30px 0;
 }
 .margin-y-50{
     margin: 50px 0;
