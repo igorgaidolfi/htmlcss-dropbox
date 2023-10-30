@@ -13,12 +13,12 @@
 
     <body>
         <!-- header fixed con una riga e due colonne -->
-        <header>
+        <header class="bg-white">
             <div class="container-full">
                 <div class="row ">
                     <div class="col-50 ">
                         <div>
-                            <ul class="d-flex ">
+                            <ul class="d-flex align-center">
                                 <li><img src="./img/logo-small.png" alt="Dropbox logo"></li>
                                 <li>Perch&eacute; Dropbox</li>
                                 <li>Funzioni</li>
@@ -28,11 +28,11 @@
                     </div>
                     <div class="col-50 ">
                         <div>
-                            <ul class="d-flex justify-right">
+                            <ul class="d-flex align-center justify-right">
                                 <li>Supporto</li>
                                 <li>Contatta l'ufficio vendite</li>
                                 <li>Accedi</li>
-                                <li><button class="signup-header bg-blue font-white no-border">Inizia</button></li>
+                                <li><button class="signup-header bg-blue-db font-white no-border">Inizia</button></li>
                             </ul>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
         <main>
             <!-- riga con tre colonne -->
             <div class="bg-lightcyan">
-                <div class="container-mid margintop-90">
+                <div class="container-mid paddingtop-120">
                     <div class="row wrap">
                         <div class="col-100">
                             <div>
@@ -54,13 +54,14 @@
                         <div class="col-40 margintop-50">
                             <div class="padd-left fsize-l">
                                 <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business &egrave; pi&ugrave; di uno spazio di archiviazione sicuro: &egrave; un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente. </p>
-                                <button class="bg-blue font-white no-border fsize-l" id="button-jumbo">Inizia la tua prova gratuita</button>
+                                <button class="bg-blue-db font-white no-border fsize-l" id="button-jumbo">Inizia la tua prova gratuita</button>
                                 <p>Annulla in qualsiasi momento</p>
+                                <span class="big-arrow">&#10140;</span>
                             </div>
                         </div>
-                        <div class="col-60 margintop-50">
+                        <div class="col-60 prelative">
                             <div>
-                                <img src="./img/jumbo.png" alt="jumbotron img" class="img">
+                                <img src="./img/jumbo.png" alt="jumbotron img" class="img pabsolute">
                             </div>
                         </div>
                     </div>
@@ -90,33 +91,35 @@
                             </div>
                             <hr>
                             <div class="card">
-                                <h4 class="title-card">Professional</h4>
+                                <h4 class="title-card fsize-xl">Professional</h4>
                                 <p class="price bold">&euro; 12.00</p>
                                 <p>/mese</p>
                                 <ul class="list-card">
-                                    <li class="li-card">
-                                        <i class="fa-solid fa-user"></i>
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-user padding-right-5"></i>
                                         Singolo
                                     </li>
-                                    <li class="li-card">
-                                        <i class="fa-solid fa-folder"></i>
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-folder padding-right-5"></i>
                                         5TB di spazio di archiviazione sicuro
                                     </li>
-                                    <li class="li-card">
-                                        <i class="fa-solid fa-share-nodes"></i>
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-share-nodes  padding-right-5"></i>
                                         Funzioni di produttivit&agrave; premium e condivisione file semplice e sicura
                                     </li>
                                 </ul>
-                                <button class="bg-blue font-white button-card no-border">Prova gratis per 30 giorni</button>
+                                <button class="bg-blue-db font-white button-card no-border">Prova gratis per 30 giorni</button>
                                 <p class="margin-y-30">oppure <a href="" class="font-blue">acquista ora</a></p>
                                 <hr class="short-hr">
                                 <p class="bold margin-y-30">Punti Salienti del piano</p>
                                 <ul>
-                                    <li class="li-card">
-                                        <span>&check;</span> Invia file fino a 100 GB con Dropbox Transfert 
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-check"></i>
+                                         Invia file fino a 100 GB con Dropbox Transfert 
                                     </li>
-                                    <li class="li-card">
-                                        <span>&check;</span> Cartelle offline su dispositivi mobili 
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-check"></i>
+                                         Cartelle offline su dispositivi mobili 
                                     </li>
                                 </ul>
                             </div>
@@ -126,47 +129,52 @@
                     <div class="col-30 border-grey">
                         <div>
                             <div class="name-card">
-                                <i class="fa-solid fa-users"></i>
+                                <i class="fa-solid fa-users padding-right-5"></i>
                                 <span>Team</span>
                             </div>
                             <hr>
                             <div class="card">
-                                <h4 class="title-card">Advanced</h4>
+                                <h4 class="title-card fsize-xl">Advanced</h4>
                                 <p class="price bold">&euro; 18.00</p>
                                 <p>/utente/mese</p>
                                 <ul class="list-card">
-                                    <li class="li-card">
-                                        <i class="fa-solid fa-users"></i>
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-users padding-right-5"></i>
                                         3 o pi&ugrave; utenti
                                     </li>
-                                    <li class="li-card">
-                                        <i class="fa-solid fa-folder"></i>
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-folder padding-right-5"></i>
                                         Tutto lo spazio di cui ha bisogno il tuo team
                                     </li>
-                                    <li class="li-card">
-                                        <i class="fa-solid fa-share-nodes"></i>
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-share-nodes padding-right-5"></i>
                                         <span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team </span>
                                     </li>
                                 </ul>
-                                <button class="bg-blue font-white button-card no-border">Prova gratis per 30 giorni</button>
+                                <button class="bg-blue-db font-white button-card no-border">Prova gratis per 30 giorni</button>
                                 <p class="margin-y-30">oppure <a href="" class="font-blue">acquista ora</a></p>
                                 <hr class="short-hr">
                                 <p class="bold margin-y-30">Punti Salienti del piano</p>
                                 <ul>
-                                    <li class="li-card">
-                                        <span>&check;</span> Nessun limite di spazio per i file  
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-check"></i>
+                                         Nessun limite di spazio per i file  
                                     </li>
-                                    <li class="li-card">
-                                        <span>&check;</span> Cartelle offline su dispositivi mobili 
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-check"></i>
+                                         Cartelle offline su dispositivi mobili 
                                     </li>
-                                    <li class="li-card">
-                                        <span>&check;</span> Risparmio del 50% rispetto alle iscrizioni singole   
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-check"></i>
+                                         Risparmio del 50% rispetto alle iscrizioni singole   
                                     </li>
-                                    <li class="li-card">
-                                        <span>&check;</span> Possibilit&agrave; di inserire nuovi membri del team   
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-check"></i>
+                                         Possibilit&agrave; di inserire nuovi membri del team   
                                     </li>
-                                    <li class="li-card">
-                                        <span>&check;</span>Gestione dei permessi in base ai ruoli  
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-check"></i>
+                                        Gestione dei permessi in base ai ruoli  
                                     </li>
                                 </ul>
                             </div>
@@ -181,36 +189,39 @@
                             </div>
                             <hr>
                             <div class="card">
-                                <h4 class="title-card">Enterprise</h4>
+                                <h4 class="title-card fsize-xl">Enterprise</h4>
                                 <p class="price bold">Contattaci</p>
                                 -
                                 <ul class="list-card">
-                                    <li class="li-card">
-                                        <i class="fa-solid fa-user"></i>
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-user padding-right-5"></i>
                                         10 o pi&ugrave; utenti
                                     </li>
-                                    <li class="li-card">
-                                        <i class="fa-solid fa-folder"></i>
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-folder padding-right-5"></i>
                                         Soluzioni personalizzabili per la tua azienda 
                                     </li>
-                                    <li class="li-card">
-                                        <i class="fa-solid fa-share-nodes"></i>
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-share-nodes padding-right-5"></i>
                                         <span>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala </span>
                                     </li>
                                 </ul>
-                                <button class="bg-blue font-white button-card no-border">Contattaci</button>
+                                <button class="bg-blue-db font-white button-card no-border">Contattaci</button>
                                 <p class="margin-y-30">oppure <a href="" class="font-blue">acquista ora</a></p>
                                 <hr class="short-hr">
                                 <p class="bold margin-y-30">Punti Salienti del piano</p>
                                 <ul>
-                                    <li class="li-card">
-                                        <span>&check;</span> Cartelle offline su dispositivi mobili 
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-check"></i>
+                                         Cartelle offline su dispositivi mobili 
                                     </li>
-                                    <li class="li-card">
-                                        <span>&check;</span> Servizio assistenza 24/h   
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-check"></i>
+                                         Servizio assistenza 24/h   
                                     </li>
-                                    <li class="li-card">
-                                        <span>&check;</span> Possibilit&agrave; di personalizzazione totale
+                                    <li class="li-card d-flex">
+                                        <i class="fa-solid fa-check"></i>
+                                         Possibilit&agrave; di personalizzazione totale
                                     </li>
                                 </ul>
                             </div>
@@ -227,12 +238,12 @@
                             <div class="card">
                                 <div class="row sp-between">
                                     <div class="col-70">
-                                        <h4 class="title-card">Enterprise</h4>
+                                        <h4 class="title-card fsize-xl">Enterprise</h4>
                                         <p class="bold">Contatta l'ufficio vendite per i prezzi</p>
                                         <p class="margintop-50">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
                                     </div>
                                     <div class="col-20">
-                                    <button class="bg-blue font-white button-card no-border">Contatta l'ufficio vendite</button>
+                                    <button class="bg-blue-db font-white button-card no-border">Contatta l'ufficio vendite</button>
                                     </div>
                                 </div>
                             </div>
@@ -246,7 +257,7 @@
                     </div>
                     <div class="col-40 margin-y-100">
                         <div class="content-capt">
-                                <h4 class="title-capt">Entra in contatto con un partner Dropbox</h4>
+                                <h4 class="title-capt fsize-xl">Entra in contatto con un partner Dropbox</h4>
                                 <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
                                 <button class="fsize-l button-capt bg-white">Trova un partner</button>
                         </div>
@@ -261,7 +272,7 @@
                     <div class="col-30">
                         <div class="margin-y-30">
                             <img src="./img/business-feature-switching-tools.png" alt="switching-tools" class="img">
-                            <h4 class="title-biz-ft">Passa di meno da uno strumento all'altro</h4>
+                            <h4 class="title-biz-ft fsize-xl">Passa di meno da uno strumento all'altro</h4>
                             <p>Porta a termine le attivit&agrave; quotidiane con un solo strumento. Crea modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
                         </div>
                     </div>
@@ -312,26 +323,26 @@
             <div class="container-full">
                 <div class="row">
                     <div class="col-33">
-                        <div class="squares-content">
+                        <div class="row wrap">
                             <div class="square bg-lightgreen">
-                                <img src="./img/designit.svg" alt="" class="square-img white-logo pabsolute">
+                                <img src="./img/designit.svg" alt="" class="square-img white-logo pabsolute centered-img">
                             </div>
                             <div class="square bg-darkpink">
-                                <img src="./img/arizona_state_university.svg" alt="" class="square-img white-logo pabsolute">
+                                <img src="./img/arizona_state_university.svg" alt="" class="square-img white-logo pabsolute centered-img">
 
                             </div>
                             <div class="square bg-bluette">
-                                <img src="./img/university_of_florida.svg" alt="" class="square-img white-logo pabsolute">
+                                <img src="./img/university_of_florida.svg" alt="" class="square-img white-logo pabsolute centered-img">
 
                             </div>
                             <div class="square bg-red">
-                                <img src="./img/topps.svg" alt="" class="square-img white-logo pabsolute">
+                                <img src="./img/topps.svg" alt="" class="square-img white-logo pabsolute centered-img">
 
                             </div>
                         </div>
                     </div>
                     <div class="col-33 bg-lightgrey">
-                        <div class="squares-content">
+                        <div class="row wrap">
                             <div class="padding-50">
                                 <img src="./img/designit.svg" alt="" class="square-img">
                                 <hr class="short-hr margin-y-30">
@@ -341,28 +352,28 @@
                         </div>
                     </div>
                     <div class="col-33">
-                        <div class="squares-content">
+                        <div class="row wrap">
                             <div class="square bg-darkred">
-                                <img src="./img/world_bicycle_relief.svg" alt="" class="square-img white-logo pabsolute">
+                                <img src="./img/world_bicycle_relief.svg" alt="" class="square-img white-logo pabsolute centered-img">
 
                             </div>
                             <div class="square bg-paleblue">
-                                <img src="./img/hearst_corp.svg" alt="" class="square-img white-logo pabsolute">
+                                <img src="./img/hearst_corp.svg" alt="" class="square-img white-logo pabsolute centered-img">
 
                             </div>
                             <div class="square bg-blue">
-                                <img src="./img/lonely_planet.svg" alt="" class="square-img white-logo pabsolute">
+                                <img src="./img/lonely_planet.svg" alt="" class="square-img white-logo pabsolute centered-img">
 
                             </div>
                             <div class="square bg-yellow">
-                                <img src="./img/clear_channel.svg" alt="" class="square-img white-logo pabsolute">
+                                <img src="./img/clear_channel.svg" alt="" class="square-img white-logo pabsolute centered-img">
 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bg-lightcyan">
+            <div class="bg-lightcyan padding-y-20">
                 <div class="container-sm">
                     <div class="row sp-between">
                             <div class="col-60">
@@ -405,13 +416,13 @@
             </div>
         </main>
         <!-- footer con una riga e cinque colonne -->
-        <footer class="font-white">
+        <footer class="font-white padding-y-30">
             <div class="container-mid">
                 <div class="row wrap">
                     <div class="col-20 ">
                         <div class="margin-y-50">
                             <ul>
-                                <li><h4 class="fsize-28">Dropbox</h4></li>
+                                <li><h4 class="fsize-28 padding-y-20">Dropbox</h4></li>
                                 <li>Applicazione desktop</li>
                                 <li>Perch&egrave; Dropbox</li>
                                 <li>Piani</li>
@@ -423,7 +434,7 @@
                     <div class="col-20 ">
                         <div class="margin-y-50">
                             <ul>
-                                <li><h4 class="fsize-28">Prodotti</h4></li>
+                                <li><h4 class="fsize-28 padding-y-20">Prodotti</h4></li>
                                 <li>Applicazione desktop</li>
                                 <li>Perch&egrave; Dropbox</li>
                                 <li>Piani</li>
@@ -435,7 +446,7 @@
                     <div class="col-20 ">
                         <div class="margin-y-50">
                             <ul>
-                                <li><h4 class="fsize-28">Azienda</h4></li>
+                                <li><h4 class="fsize-28 padding-y-20">Azienda</h4></li>
                                 <li>Applicazione desktop</li>
                                 <li>Perch&egrave; Dropbox</li>
                                 <li>Piani</li>
@@ -447,7 +458,7 @@
                     <div class="col-20 ">
                         <div class="margin-y-50">
                             <ul>
-                                <li><h4 class="fsize-28">Supporto</h4></li>
+                                <li><h4 class="fsize-28 padding-y-20">Supporto</h4></li>
                                 <li>Applicazione desktop</li>
                                 <li>Perch&egrave; Dropbox</li>
                                 <li>Piani</li>
@@ -459,7 +470,7 @@
                     <div class="col-20 ">
                         <div class="margin-y-50">
                             <ul>
-                                <li><h4 class="fsize-28">Community</h4></li>
+                                <li><h4 class="fsize-28 padding-y-20">Community</h4></li>
                                 <li>Applicazione desktop</li>
                                 <li>Perch&egrave; Dropbox</li>
                                 <li>Piani</li>
@@ -472,7 +483,7 @@
                         <hr class="mini-hr margin-y-30">
                     </div>
                     <div>
-                        <i class="fa-solid fa-earth"></i>
+                        <i class="fa-solid fa-earth padding-right-5"></i>
                         <span> Italiano</span> 
                     </div>                    
                 </div>

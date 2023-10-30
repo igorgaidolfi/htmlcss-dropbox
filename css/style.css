@@ -19,8 +19,8 @@ body{
     max-width: 1300px;
     margin: 0 auto;
 }
-.margintop-90{
-    margin-top: 90px;
+.paddingtop-120{
+    padding-top: 120px;
 }
 .row{
     display: flex;
@@ -61,8 +61,11 @@ li{
 }
 .d-flex{
     display: flex;
+}
+.align-center{
     align-items: center;
 }
+
 .justify-right{
     justify-content: right;
 }
@@ -70,7 +73,7 @@ li{
 .wrap{
     flex-wrap: wrap;
 }
-.bg-blue{
+.bg-blue-db{
     background-color: #0061fe;
 }
 .font-white{
@@ -85,6 +88,9 @@ li{
 .fsize-l{
     font-size: large;
 }
+.fsize-xl{
+    font-size: x-large;
+}
 .no-border{
     border: none
 }
@@ -97,7 +103,21 @@ li{
 .short-hr{
     width: 20%;
 }
+.padding-y-20{
+    padding: 20px 0px;
+}
+.padding-right-5{
+    padding-right: 5px;
+}
+.padding-y-30{
+    padding: 30px 0;
+}
 /* HEADER */
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
 .signup-header{
     padding: 7px 15px
 }
@@ -110,7 +130,12 @@ h1{
 
 .bg-lightcyan{
     background-color: #b4d0e7;
-    padding: 20px 0;
+}
+.big-arrow{
+    font-size: 60px;
+    display: inline-block;
+    transform: rotate(90deg);
+    margin-top: 40px;
 }
 .img{
     width: 100%;
@@ -118,6 +143,9 @@ h1{
 #button-jumbo{
     margin: 30px 0px;
     padding: 10px 20px;
+}
+.col-60 .pabsolute{
+    top: 12%;
 }
 .sp-between{
     justify-content: space-between;
@@ -134,7 +162,6 @@ h2{
     padding: 30px;
 }
 .title-card{
-    font-size: x-large;
     padding-bottom: 15px;
 }
 .price{
@@ -145,6 +172,7 @@ h2{
 }
 .li-card{
     padding: 10px 0;
+
 }
 .button-card{
     width: 100%;
@@ -152,6 +180,10 @@ h2{
 }
 .margin-y-30{
     margin: 30px 0;
+}
+.fa-check{
+    color: #0061fe;
+    padding-right: 5px
 }
 .margin-y-50{
     margin: 50px 0;
@@ -166,7 +198,6 @@ h2{
     padding: 50px;
 }
 .title-capt{
-    font-size: x-large;
     line-height: 1.6;
     margin-bottom: 15px;
 }
@@ -181,17 +212,11 @@ h2{
     font-size: 48px;
 }
 .title-biz-ft{
-    font-size: x-large;
     margin-bottom: 30px;
 }
 .quote{
     padding: 75px 0;
     padding-right: 250px;
-}
-.squares-content{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
 }
 .square{
     width: 50%;
@@ -233,6 +258,11 @@ h2{
 }
 .pabsolute{
     position: absolute;
+}
+.prelative{
+    position: relative;
+}
+.centered-img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -251,9 +281,6 @@ h2{
 .marginbot-100{
     margin-bottom: 100px;
 }
-.padding-y-30{
-    padding: 30px 0;
-}
 .border-top-bot{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -262,7 +289,6 @@ h2{
 /* FOOTER */
 footer{
     background-color: #000;
-    padding: 30px 0;
 }
 .fsize-28{
     font-size: 28px;
