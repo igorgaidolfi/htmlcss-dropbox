@@ -154,6 +154,27 @@ h2{
 .margin-y-50{
     margin: 50px 0;
 }
+.col-70{
+    width: 70%;
+}
+.margin-y-100{
+    margin: 100px 0;
+}
+.content-capt{
+    padding: 50px;
+}
+.title-capt{
+    font-size: x-large;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.bg-white{
+    background-color: #fff;
+}
+.button-capt{
+   padding: 10px 15px;
+   margin: 30px 0; 
+}
 .col-33 .content{
     height: 500px;
 }
