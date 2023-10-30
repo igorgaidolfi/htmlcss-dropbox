@@ -37,7 +37,7 @@ body{
     width: 60%;
 }
 .col-30{
-    width: calc(100%/ 3 - 40px);
+    width: 30%;
 }
 .col-33{
     width: calc(100% / 3);
@@ -175,6 +175,14 @@ h2{
    padding: 10px 15px;
    margin: 30px 0; 
 }
+.fszize-xxxl{
+    font-size: 48px;
+}
+.title-biz-ft{
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
 .col-33 .content{
     height: 500px;
 }
